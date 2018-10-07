@@ -1,0 +1,464 @@
+/**
+ * Your Inspiration Themes
+ * 
+ * In this files the framework register default metaboxes.
+ * 
+ * @package WordPress
+ * @subpackage Your Inspiration Themes
+ * @author Your Inspiration Themes Team <info@yourinspirationthemes.com>
+ *
+ * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/licenses/gpl-3.0.txt
+ */
+
+/********************************************
+
+In this file you can add your custom CSS.
+It will always override rules in style.css.
+Good work... and good luck! :)
+
+********************************************/
+
+.wrap_status {
+    background-color: #FFF4E5;
+    border: 1px solid #b77a2b;
+    border-radius: 7px;
+    position: fixed;
+    left: 30%;
+    top: 3%;
+    width: 40%;
+    min-height: 80px;
+    display: none;
+    z-index: 5005;
+    display: flex;
+    opacity: 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wrap_status .status {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.borGreen {
+    border: 1px solid green;
+    background-color: rgba(0, 255, 0, 0.05);
+}
+
+#portfolio .last {
+    margin-bottom: 20px;
+}
+
+.input-prepend input[type="password"] {
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.socials {
+    margin-top: 75px;
+}
+
+#header .sub-indicator {
+    font-size: 15px;
+}
+
+.yit_text_quote {
+    margin-top: 9px;
+}
+
+#logo .brand_name {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    letter-spacing: .5px;
+    font-size: 28px;
+}
+
+#logo img {
+    vertical-align: middle;
+}
+
+#logo .brand_name {
+    vertical-align: middle;
+    position: relative;
+    left: 5px;
+}
+
+#logo {
+    padding-bottom: 15px;
+}
+
+#sidebar-header .widget blockquote,
+.yit-widget-content .yit_text_quote blockquote {
+    font-size: 18px;
+    color: #939191;
+    line-height: 22px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2px;
+}
+
+.yit-widget-content .yit_text_quote blockquote {
+    padding-top: 5px;
+}
+
+.text-quote-author {
+    font-family: "Roboto", sans-serif;
+    color: #b77a2b;
+}
+
+.yit-widget-content .yit_text_quote cite {
+    font-size: 18px;
+}
+
+#header div.menu > ul > li > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#header div.menu > ul ul li a {
+    font-size: 12px;
+}
+
+.page-template-home-php #header .menu {
+    height: 33px;
+}
+
+.menu-select select {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-indicator {
+    /*display: none;*/
+}
+
+.widget-icon-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+    /*max-width: 250px;*/
+}
+
+.widget-icon-text p:hover,
+.widget-last-post p:hover {
+    color: #b77a2b;
+}
+
+.widget-last-post {
+    padding-top: 10px;
+}
+
+.icon-img {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.icon-img + p {
+    font-size: 15px;
+    padding-left: 80px;
+    line-height: 20px;
+}
+
+td.slider-top-right,
+td.slider-bottom-right {
+    text-align: right;
+}
+
+td.slider-top-left,
+td.slider-bottom-left {
+    text-align: left;
+}
+
+td.slider-top-left,
+td.slider-top-right {
+    vertical-align: top;
+}
+
+td.slider-bottom-left,
+td.slider-bottom-right {
+    vertical-align: bottom;
+}
+
+div.slider-top-left,
+div.slider-top-right,
+div.slider-bottom-left,
+div.slider-bottom-right {
+    position: absolute;
+    width: 550px;
+}
+
+div.slider-top-right,
+div.slider-bottom-right {
+    right: 10px;
+}
+
+div.slider-top-left,
+div.slider-bottom-left {
+    left: 30px;
+}
+
+div.slider-top-left,
+div.slider-top-right {
+    top: 0px;
+}
+
+div.slider-bottom-left,
+div.slider-bottom-right {
+    bottom: 110px;
+}
+
+#slider-cycle.slider_cycle .slide-title h2 span {
+    color: #b77a2b;
+}
+
+.btn-come-to-me-4,
+.btn-clear-3 {
+    margin-bottom: 10px;
+}
+
+.ui-accordion .ui-accordion-header span {
+    font-size: 15px;
+}
+
+#dialog-confirm p,
+#dialog-confirm img {
+    vertical-align: middle;
+}
+
+#dialog-confirm img {
+    margin-right: 7px;
+}
+
+.blog-big .meta a, .blog-small .meta a {
+    color: #b77a2b;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.socials {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+#comments .fn {
+    line-height: 15px;
+    margin-top: 3px;
+}
+
+.comment-container {
+    position: relative;
+}
+
+a.comment-reply-link {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.commentDate {
+    font-style: italic;
+}
+
+#reply-title {
+    margin-bottom: 0;
+}
+
+[class^="comment-form-"],
+#respond p.form-submit {
+    margin-top: 0;
+}
+
+#respond p.form-submit {
+    margin-bottom: 40px;
+}
+
+#cancel-comment-reply-link .icon-remove-sign {
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 27px;
+    width: auto;
+}
+
+#cancel-comment-reply-link .icon-remove-sign:hover {
+    color: black;
+}
+
+.commentNumber {
+    display: none;
+}
+
+h3#comments-title {
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.socials {
+    margin-bottom: 30px;
+}
+
+.scrollup {
+    width: 40px;
+    height: 50px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 60px;
+    right: 35px;
+    display: none;
+    text-indent: -9999px;
+    background: url('../images/icon_top.png') no-repeat;
+}
+
+.recent-post .hentry-post div.text,
+.recent-comments a.title {
+    line-height: 16px;
+}
+
+.recent-post p.post-date {
+    margin-top: 2px;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+}
+
+.content .contact-form {
+    width: 100%;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+.bg-shadow {
+    padding-bottom: 5.5rem;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.short-table table {
+    margin-bottom: 20px;
+}
+
+.general-pagination {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blog-big {
+    margin-bottom: 40px;
+}
+
+p.comments,
+p.categories,
+p.author {
+    margin-bottom: 10px !important;
+}
+
+#page-meta {
+    margin-bottom: 28px;
+}
+
+.portfolio-big-image .work {
+    margin-bottom: 40px;
+}
+
+#contact-form-contact-us .textarea-field {
+    margin-bottom: 0px;
+}
+
+.btn-admin-exit {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.btn-admin-enter {
+    position: absolute;
+    top: 102px;
+    right: 0px;
+    z-index: 100000;
+}
+
+.work-description a,
+.related_project a {
+    color: #b77a2b;
+}
+
+.work-description a:hover,
+.related_project a:hover {
+    color: #030303;
+}
+
+.work-description div.work-skillsdate {
+    padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .btn-admin-enter {
+        display: none;
+    }
+
+    .sidebar-right .section.portfolio .work-description,
+    .sidebar-left .section.portfolio .work-description {
+        width: 100%;
+    }
+
+    .portfolio-big-image .work-description {
+        margin-top: 15px;
+    }
+
+
+    .portfolio-full-description .work-description {
+        margin-top: 5px;
+    }
+
+    .desc-width {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 987px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section .related_project {
+        width: 100%;
+    }
+
+    .related_img {
+        float: none;
+        width: 175px;
+    }
+
+    .related_project h4 {
+        float: none;
+        width: 100%;
+    }
+}
+
